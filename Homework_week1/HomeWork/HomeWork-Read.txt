@@ -1,0 +1,37 @@
+Book: The Swift Programming Language
+1. Read: Control Transfer Statement - page 131
+2. Read: API Availability - page 140
+3. Read: Recursive Enumerations - page 187
+4. Read: Subscript - page 233
+5. Read: Convenience initializer - page 260
+6. Read: Deinitialization- page 286
+7. Read: Optional Chaining - page 290
+8. Read: Converting Erros to Optional Values - page 311
+9. Read: Downcasting - page 316
+10. Read. Delegation - page 344
+10. Read: Optional Protocol Requirements - page 361
+11. Read: Automatic Reference Counting - page 405
+
+## Questionaire:
+What is the difference between var and let?
+What is an optional?
+What is optional chaining vs optional binding?
+What are the different ways to unwrap an optional? How do they work? Are they safe?
+What is a closure?
+What is the difference between a class and a struct?
+What is the syntax '??' do?
+What is a tuple?
+What is Any vs AnyObject?
+What is a protocol?
+What is Delegation
+
+
+Read these articles
+https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes
+https://fluffy.es/reference-vs-value-type/
+
+
+Read about Naming properties, func, protocols, best practice
+Explain UIKit - What is?
+
+- Basic App Using MVC with json file embedded. (Login -> tabbar -> List of activity master, detail
