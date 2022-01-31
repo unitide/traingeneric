@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     private var networkManager = NetworkManager()
     private let postsService = PostsService()
+    private var titleStory: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,14 +20,19 @@ class ViewController: UIViewController {
         fetchPosts()
         fetchStories()
     }
+    
+    private func setUpUI() {
+        // create the view with code
+    }
 
     private func fetchPosts() {
         // without generic
-        networkManager.getPosts(from: NetworkURLs.postsURL) { result in
+        networkManager.getPosts(from: NetworkURLs.postsURL) { [weak self] result in
             switch result {
             case .success(let response):
                 let firstPost = response.first
                 print(firstPost?.title)
+                self?.titleStory = (firstPost?.title
             case .failure(let error):
                 print(error.localizedDescription)
             }
@@ -73,4 +79,3 @@ class ViewController: UIViewController {
     }
 
 }
-
