@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    private let networkManager = NetworkManager()
+    private var networkManager = NetworkManager()
     private let postsService = PostsService()
     
     override func viewDidLoad() {

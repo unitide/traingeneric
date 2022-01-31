@@ -89,6 +89,7 @@
 		476AF37327A1A4B800D927DA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				476AF36327A1A48E00D927DA /* ViewController.swift */,
 				476AF36527A1A48E00D927DA /* Main.storyboard */,
 			);
 			path = View;
@@ -97,7 +98,6 @@
 		476AF37427A1A4C100D927DA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				476AF36327A1A48E00D927DA /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
