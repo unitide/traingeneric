@@ -8,10 +8,7 @@
 import Foundation
 
 enum NetworkURLs {
-    
     static let baseURL = "https://jsonplaceholder.typicode.com"
     static let postsURL = "\(baseURL)/posts"
-    
-    static let baseURLReddit = "https://www.reddit.com/.json"
 }
 
