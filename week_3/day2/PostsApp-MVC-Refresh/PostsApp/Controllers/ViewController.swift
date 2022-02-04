@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     private var posts = [Post]()
     private let networkManager = NetworkManager()
     private var rowSelected = 0
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -68,7 +68,7 @@ extension ViewController: UITableViewDataSource {
         let row = indexPath.row
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let post = posts[row]
-        cell.textLabel?.text = post.title
+        cell.textLabel?.text = post.title.uppercased()
         cell.detailTextLabel?.text = post.overview
         return cell
         
